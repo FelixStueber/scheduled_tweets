@@ -13,4 +13,12 @@ class PasswordResetsController < ApplicationController
     redirect_to root_path, notice: "If an account with that email was found,
                                        we have sent a link to reset your password."
   end
+
+  def edit
+
+  end
+
+  def update
+
+  end
 end
